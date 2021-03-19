@@ -130,6 +130,9 @@ ul#detail li {
 #detail li:nth-child(n+4) a {
     margin-left: 121px;
 }
+#detail li:nth-child(3) a.addIndent {
+    margin-left: 121px;
+}
 ul#detail a {
     color: black;
 }
