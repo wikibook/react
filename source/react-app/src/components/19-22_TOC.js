@@ -6,7 +6,10 @@ class TOC extends Component {
       newProps.data,
       this.props.data
     );
-    return false;
+    if(this.props.data === newProps.data) { 
+      return false;
+    }
+    return true;
   } 
   render() {
     console.log("==>TOC render");

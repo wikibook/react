@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class TOC extends Component {
   shouldComponentUpdate() {
     console.log("==>TOC render shouldComponentUpdate");
-    return true;
+    return false;
   } 
   render() {
     console.log("==>TOC render");
