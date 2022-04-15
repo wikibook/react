@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class Subject extends Component {
+class Control extends Component {
   render() {
     console.log('Control render');
     return (
@@ -12,4 +12,4 @@ class Subject extends Component {
   }
 }
 
-export default Subject; 
+export default Control; 
